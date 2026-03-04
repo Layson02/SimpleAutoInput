@@ -22,7 +22,9 @@ Uma versão robusta projetada para jogos (DirectX) e tarefas que exigem controle
 
 ---
 
-## 🛠️ Instalação
+## 🛠️ Instalação Rápida
 
-Para rodar os scripts, instale as dependências necessárias via pip
+Para instalar todas as dependências de uma vez e garantir que o ambiente esteja pronto para execução, utilize o arquivo `requirements.txt`:
 
+```bash
+pip install -r requirements.txt
