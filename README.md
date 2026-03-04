@@ -1,30 +1,30 @@
 # Simple Auto Keyboard Input
 
-Este repositório contém ferramentas de automação para pressionamento de teclas desenvolvidas em Python. O projeto oferece duas abordagens: uma simples para tarefas cotidianas de interface e uma avançada para jogos ou aplicações que exigem maior compatibilidade.
+This repository contains keyboard automation tools developed in Python. The project offers two approaches: a simple one for everyday interface tasks and an advanced one for games or applications requiring higher compatibility.
 
 ---
 
-## 🚀 Versões do Projeto
+## 🚀 Project Versions
 
 ### 1. Standard (`auto.py`)
-Uma versão minimalista focada em facilidade de uso e automação de interface padrão.
-* **Biblioteca:** Baseado em `pyautogui`.
-* **Delay de Preparo:** Inclui um intervalo de 3 segundos antes de começar para você alternar para a janela correta.
-* **Configuração:** Permite definir a tecla, o intervalo entre pressões e a quantidade total de repetições.
+A minimalist version focused on ease of use and standard interface automation.
+* **Library:** Based on `pyautogui`.
+* **Preparation Delay:** Includes a 3-second interval before starting, allowing you to switch to the target window.
+* **Configuration:** Allows you to define the key, the interval between presses, and the total number of repetitions.
 
 ### 2. Advanced (`autodirect.py`)
-Uma versão robusta projetada para jogos (DirectX) e tarefas que exigem controle dinâmico.
-* **Biblioteca:** Utiliza `pydirectinput` para compatibilidade com DirectX e `keyboard` para capturar atalhos globais.
-* **Antidetecção:** Implementa intervalos aleatórios entre as pressões para evitar comportamentos previsíveis de bot.
-* **Controles em Tempo Real (Hotkeys):**
-    * `F8`: Alterna o estado do script entre **LIGADO** e **PAUSADO**.
-    * `F9`: Encerra o programa de forma imediata (Kill Switch).
+A robust version designed for games (DirectX) and tasks requiring dynamic control.
+* **Library:** Uses `pydirectinput` for DirectX compatibility and `keyboard` to capture global shortcuts.
+* **Anti-detection:** Implements random intervals between presses to avoid predictable bot-like behavior.
+* **Real-time Controls (Hotkeys):**
+    * `F8`: Toggles the script state between **ON** and **PAUSED**.
+    * `F9`: Terminates the program immediately (Kill Switch).
 
 ---
 
-## 🛠️ Instalação Rápida
+## 🛠️ Quick Installation
 
-Para instalar todas as dependências de uma vez e garantir que o ambiente esteja pronto para execução, utilize o arquivo `requirements.txt`:
+To install all dependencies at once and ensure the environment is ready for execution, use the `requirements.txt` file:
 
 ```bash
 pip install -r requirements.txt
